@@ -1,16 +1,16 @@
 # MA 26500
 
-## , Fall 2014 at Purdue University
+## Fall 2014 at Purdue University
 
-This is a course is an introduction to linear algebra.
 <h4 style="text-align:center">
-  Create a viable free open source alternative to Magma, Maple, Mathematica and Matlab.
+  This is a course is an introduction to linear algebra with applications using Sage or Matlab.
 </h4>
 
 
 # Information
 
-- Course location: MWF at 3:30 to 4:20 (section I) or 4:30 to 3:30 (section II) UNIV 303
+- Course location: MWF at 3:30 to 4:20 (section I) or MWF at 4:30 to 3:30 (section II) UNIV 303
+- Office hours: Monday, Wednesday 1:00-3:00
 - Course website: <https://github.com/gnang/MA26500>
 - Professor: [Edinah Gnang](http://www.math.purdue.edu/~egnang/)
 
