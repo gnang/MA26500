@@ -9,8 +9,8 @@
 
 # Information
 
-- Course location: MWF at 3:30 to 4:20 (section I) or MWF at 4:30 to 5:20 (section II) UNIV 303
-- Office hours: Monday, Wednesday 1:00-3:00
+- Course location: MWF at 3:30 to 4:20 (section I) or MWF at 4:30 to 5:20 (section II) at UNIV 303.
+- Office hours: Monday, Wednesday 1:00-3:00.
 - Course website: <https://github.com/gnang/MA26500>
 - Professor: [Edinah Gnang](http://www.math.purdue.edu/~egnang/)
 
