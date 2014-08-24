@@ -3,7 +3,7 @@
 ## Fall 2014 at Purdue University
 
 <h4 style="text-align:center">
-  This is a course is an introduction to linear algebra with applications using Sage or Matlab.
+  This is a course is an introduction to linear algebra with applications (using Sage or Matlab).
 </h4>
 
 
