@@ -27,7 +27,7 @@ In this course you will:
 
 - *Homework:* (25% of grade)
 - *Two midterms:* (20% each)
-- *Final*: (35% of grade) You will create a project, which will be (peer) graded in May and June.
+- *Final*: (35% of grade)
 
 
 # Assignment Schedule
