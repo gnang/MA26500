@@ -1,4 +1,4 @@
-# MA 26500 (031 & 131)
+# MA 26500 (Sec. 031 & 131)
 
 ## Fall 2014 at Purdue University
 
