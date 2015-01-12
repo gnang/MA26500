@@ -1,21 +1,23 @@
 \documentclass[10pt]{article}
 \begin{document}
 \noindent\parbox{7cm}{\large Purdue University\\
-                    MA265 Linear Algebra\\
-                    Fall 2014\\
+                    MA26500 Linear Algebra\\
+                    Spring 2015\\
                     Syllabus}
 \hfill
 \parbox{7cm}{\large Instructor: Edinah Gnang\\
                     Office: 646 MATH\\
-                    E-mail: {\tt egnang@purdue.edu}}
+                    Phone:   494-1901\\
+                    E-mail: {\tt egnang@math.purdue.edu}}
 
 \section{General Information}
 
 \subsection{Class time / location:}
-        Monday, Wednesday, Friday 04:30p - 05:20p, UNIV 303.
+                    MWF 09:30am-10:20am, UNIV 003 (Sec 032)\\
+                    MWF 10:30am-11:20am, UNIV 003 (Sec 051)\\ 
 
 \subsection{Office Hours:}   
-                Wednesday 1:00p - 3:00p.	
+		    MWF 11:20-12:40
 
 \subsection{Textbook:}
                 Elementary Linear Algebra\\
@@ -34,13 +36,16 @@ This page contains matlab files to
 download for you. These will be needed during the course for
 homework.\smallskip
 
-\noindent Our class page is {\tt https://github.com/gnang/MA26500}. It includes syllabus,
-and some other info concerning the class. \smallskip
+\noindent Our class page can be found on the page {\tt
+http://www.math.purdue.edu/\~{}egnang/}. It includes
+syllabus, some other info concerning the class. \smallskip
+
 
 \noindent The WebAssign student login page is {\tt http://www.webassign.net/purdue/login.html}.
 
-\subsection{Statement for Students with Disabilities}
-See the webpage, {\tt http://www.math.purdue.edu/\~{}walther/teach}.
+
+%\subsection{Statement for Students with Disabilities}
+%See the webpage, {\tt http://www.math.purdue.edu/\~{}walther/teach}.
 
 \subsection{Calculators}
 Calculators are not allowed on any test.
@@ -51,14 +56,15 @@ Calculators are not allowed on any test.
 \section{Course Structure}
 
 If you disagree with the grading in any category, you need to resubmit
-the item in question {\bf with a written explanation} stating {\em why} (and
-not just {\em that}) you deserve more credit. 
+the item in question {\bf with a written explanation} stating {\em why}
+(and not just {\em that}) you deserve more credit. 
 \subsection{Homework:}   
         Webassign is due online Thursday evening 11:40pm.  The
         other problems (with a * on the assignment sheet, including
-        all Matlab problems), will be collected every Friday in
-        class. {\bf No late assignments will be accepted.}  
-        Neither will homework deposited anywhere else.
+        all Matlab printout), will be collected every Friday in
+        class or in my office during the Friday office hours.  
+        {\bf No late assignments will be accepted.}  Neither will 
+        homework deposited anywhere else.
 
 	The homework due in any given week is the
 	homework corresponding to the material of the previous
@@ -73,24 +79,25 @@ not just {\em that}) you deserve more credit.
 There will likely be weekly quizzes.
 
 \subsection{Midterms:}  
-	There will be two midterms, {\bf Friday, Oct 3} and {\bf
-  Friday, Nov 7}. Makeups may be given in extraordinary
+	There will be two midterms, {\bf Friday, February 20} and 
+  {\bf Friday, March 27}. Makeups may be given in extraordinary
   instances, but only with documented reasons.
 
 \subsection{Final Exam:}
         The Final Exam will be given during the Final Exam Week.
         The location and date of the final will be announced in class.
-	Most exams will be multiple choice.
+	The final exams will be multiple choice.
 
 \subsection{Course Grade:}
         Your course grade will be determined using the following 
         distributions:
 
 \begin{tabular}{ll}\\
-        HW 		 &    25\%\\
+        HW 		&    25\%\\
         2 Midterms, each     &  20\%\\
-        Final           &     35\%\\
+        Final          &     35\%\\
 \end{tabular}
+
 
 \subsection{Classroom Safety}
 In the event of a major campus emergency, course requirements,
@@ -101,7 +108,6 @@ about changes in this course.
 
 \begin{itemize}
 \item Course and class web pages (see item 1.4)
-\item \tt{egnang@purdue.edu}.
+\item \tt{egnang@purdue.edu}, \tt{(765)-494-1959}.
 \end{itemize}
 \end{document}
-
