@@ -15,7 +15,7 @@ def gaussian_elimination(Cf, rs):
     P  = sum([Id[:,k]*Id[mod(k+1,A.nrows()),:] for k in range(A.nrows())])
     # Initialization of the row and column index
     i = 0; j = 0;
-    while i < A.nrows()-1 and j < A.ncols()-1:
+    while i < A.nrows() and j < A.ncols():
         if (A[:,j]).is_zero():
             # Incrementing the column index
             j = j + 1
