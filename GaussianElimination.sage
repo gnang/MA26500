@@ -1,4 +1,22 @@
 def gaussian_elimination(Cf, rs):
+    """
+    Outputs the row echelon form of the input matrix and the right hand side.
+
+    EXAMPLES:
+ 
+    ::  
+        sage: [RefA, c] = gaussian_elimination(Matrix(SR,HM(2,2,'a').listHM()), Matrix(SR,HM(2,1,'b').listHM()))
+        sage: RefA
+        [      1 a01/a00]
+        [      0       1]
+        sage: c
+        [                                b00/a00]
+        [(a10*b00/a00 - b10)/(a01*a10/a00 - a11)]
+
+    AUTHORS:
+    - Edinah K. Gnang
+    - To Do: 
+    """
     A=copy(Cf); b=copy(rs)
     # Zero padding the matrix if necessary.
     if A.nrows() < A.ncols():
