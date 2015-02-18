@@ -17,29 +17,33 @@ def gaussian_elimination(Cf, rs):
     - Edinah K. Gnang
     - To Do: 
     """
-    A=copy(Cf); b=copy(rs)
+    A = copy(Cf); b = copy(rs)
     # Zero padding the matrix if necessary.
     if A.nrows() < A.ncols():
         # Temporary matrix for A
-        Ta=Matrix(SR, zero_matrix(A.ncols(), A.ncols()))
+        Ta = Matrix(SR, zero_matrix(A.ncols(), A.ncols()))
         Ta[:A.nrows(), :A.ncols()] = copy(A)
         # Temporary matrix for b
-        Tb=Matrix(SR, zero_matrix(A.ncols(), b.ncols())) 
+        Tb = Matrix(SR, zero_matrix(A.ncols(), b.ncols())) 
         Tb[:b.nrows(), :b.ncols()] = copy(b)
-        # replacing the matrix with the zero padding.
+        # replacing the matrix with the zero apdding.
         A = Ta; b = Tb
-    # Initializing the cyclic shift permutation matrix
-    Id = identity_matrix(A.nrows())
-    P  = sum([Id[:,k]*Id[mod(k+1,A.nrows()),:] for k in range(A.nrows())])
     # Initialization of the row and column index
     i = 0; j = 0;
     while i < A.nrows() and j < A.ncols():
         if (A[:,j]).is_zero():
             # Incrementing the column index
             j = j + 1
-        else:
-            while (A[i,j]).is_zero():
-                A = P*A; b = P*b
+        elif (A[i:,:].is_zero()) == False:
+            while (A[i,j]).is_zero(): 
+                Ta = A[i:,:]
+                Tb = b[i:,:]
+                # Initializing the cyclic shift permutation matrix
+                Id = identity_matrix(Ta.nrows())
+                P  = sum([Id[:,k]*Id[mod(k+1,Ta.nrows()),:] for k in range(Ta.nrows())])
+                Ta = P*Ta; Tb = P*Tb
+                A[i:,:] = Ta
+                b[i:,:] = Tb
             # Performing the row operations.
             b[i,:] = (1/A[i,j])*b[i,:]
             A[i,:] = (1/A[i,j])*A[i,:]
