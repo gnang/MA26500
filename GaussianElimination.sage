@@ -5,7 +5,7 @@ def gaussian_elimination(Cf, rs):
     EXAMPLES:
  
     ::  
-        sage: [RefA, c] = gaussian_elimination(Matrix(SR,HM(2,2,'a').listHM()), Matrix(SR,HM(2,1,'b').listHM()))
+        sage: [RefA, c] = gaussian_elimination(Matrix(SR,2,2,[var('a'+str(i)+str(j)) for i in range(2) for j in range(2)] ), Matrix(SR,2,1,[var('b0'),var('b1')])
         sage: RefA
         [      1 a01/a00]
         [      0       1]
