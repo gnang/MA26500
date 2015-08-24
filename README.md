@@ -1,9 +1,9 @@
-# MA 26500 (sec. 032 & 051)
+# MA 26500 (sec. 011 & 142)
 
 ## Fall 2015 at Purdue University
 
 <h4 style="text-align:center">
-  This course is an introduction to linear algebra with applications (using Matlab and Sagemath).
+  This course is an introduction to linear algebra with applications (using Matlab and possibly Sagemath).
 </h4>
 
 
