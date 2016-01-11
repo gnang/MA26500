@@ -1,4 +1,4 @@
-# MA 26500 (sec. 011 & 142)
+# MA 26500 (sec. 131 & 171)
 
 ## Fall 2015 at Purdue University
 
