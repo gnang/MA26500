@@ -1,6 +1,6 @@
 # MA 26500 (sec. 131 & 171)
 
-## Fall 2015 at Purdue University
+## Spring 2016 at Purdue University
 
 <h4 style="text-align:center">
   This course is an introduction to linear algebra with applications (using Matlab and possibly Sagemath).
@@ -21,7 +21,7 @@ In this course you will:
 
 - Learn some important linear algebra algorithms
 - Understand matrix algebra and applications
-- Learn how to use and manipulate matrices with computers
+- Learn how to use and manipulate matrices with Matlab
 
 # Your Responsibilities
 
