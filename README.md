@@ -1,6 +1,6 @@
 # MA 26500 (sec. 131 & 171)
 
-## Spring 2016 at Purdue University
+## Fall 2016 at Purdue University
 
 <h4 style="text-align:center">
   This course is an introduction to linear algebra with applications (using Matlab and possibly Sagemath).
@@ -9,8 +9,8 @@
 
 # Information
 
-- Course location: MWF at 09:30 to 10:20 (section 131) and MWF at 10:30 to 11:20 (section 173) at UNIV 303.
-- Office hours: Monday, Wednesday, Friday 11:20-12:40.
+- Course location: MWF at 09:30 to 10:20 (section 071) and MWF at 10:30 to 11:20 (section 011) at UNIV 303.
+- Office hours: Monday, Wednesday, Friday 11:20-12:40 in MATH404.
 - Course website: <https://github.com/gnang/MA26500>
 - Professor: [Edinah Gnang](http://www.math.purdue.edu/~egnang/)
 
